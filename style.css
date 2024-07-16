@@ -1,0 +1,80 @@
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.space {
+  line-height: 0.5;
+  margin-bottom: 40px;
+}
+
+.space1 {
+  color: hsl(75, 94%, 57%);
+}
+
+.space2 {
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  color: hsl(0, 0%, 100%);
+}
+
+.in {
+  background-color: hsl(0, 0%, 12%);
+  margin-left: 550px;
+  margin-top: 150px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 30px;
+  width: 400px;
+  height: 570px;
+}
+
+.button > button {
+  display: block;
+  width: 80%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  border-style: none;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+button:active {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: black;
+  cursor: c;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+.image img {
+  display: inline;
+  height: 100%;
+  width: auto;
+  margin-left: 0px;
+}
+
+footer {
+  color: white;
+  margin-top: 100px;
+}
